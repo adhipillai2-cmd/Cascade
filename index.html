@@ -65,6 +65,8 @@
                 You're a creator, not a content factory. Stop the grind of manually repurposing. Cascade uses AI to turn your pillar video or podcast into high-quality posts for every platform.
             </p>
             <form name="early-access" method="POST" data-netlify="true" action="/thank-you.html" class="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4 max-w-md mx-auto">
+                <!-- Netlify hidden form name field for reliability -->
+                <input type="hidden" name="form-name" value="early-access" />
                 <input type="email" name="email" placeholder="Enter your email" required class="w-full sm:w-auto flex-grow px-5 py-3 rounded-lg border-gray-300 shadow-sm focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-all" />
                 <button type="submit" class="w-full sm:w-auto bg-gray-900 text-white font-semibold px-6 py-3 rounded-lg shadow-lg hover:bg-gray-800 transform hover:-translate-y-0.5 transition-all">
                     Join the Private Beta
@@ -176,4 +178,5 @@
 
 </body>
 </html>
+
 
