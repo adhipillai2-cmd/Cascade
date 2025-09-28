@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascade - Turn One Video into a Week of Content</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Google Analytics - Replace G-XXXXXXXXXX with your own Measurement ID -->
+    <script async src="https://www.goog.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #3B82F6, #8B5CF6);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hero-bg {
+            background-color: #F5F3FF;
+            background-image: radial-gradient(#DDD6FE 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
+        /* Styles for the tab component */
+        .tab-button.active {
+            background-color: #111827;
+            color: white;
+        }
+        .tab-content {
+            display: none;
+        }
+        .tab-content.active {
+            display: block;
+        }
+    </style>
+</head>
+<body class="bg-violet-50 text-gray-800">
+
+    <!-- Header -->
+    <header class="py-4 px-6 sm:px-10">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-900">Cascade</h1>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main class="hero-bg">
+        <section class="container mx-auto px-6 py-20 sm:py-28 text-center">
+            <h2 class="text-4xl md:text-6xl font-extrabold text-gray-900 leading-tight">
+                Turn One Video into a <span class="gradient-text">Week of Content.</span> In 5 Minutes.
+            </h2>
+            <p class="mt-6 text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
+                You're a creator, not a content factory. Stop the grind of manually repurposing. Cascade uses AI to turn your pillar video or podcast into high-quality posts for every platform.
+            </p>
+            <form name="early-access" method="POST" data-netlify="true" action="/thank-you.html" class="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4 max-w-md mx-auto">
+                <input type="email" name="email" placeholder="Enter your email" required class="w-full sm:w-auto flex-grow px-5 py-3 rounded-lg border-gray-300 shadow-sm focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-all" />
+                <button type="submit" class="w-full sm:w-auto bg-gray-900 text-white font-semibold px-6 py-3 rounded-lg shadow-lg hover:bg-gray-800 transform hover:-translate-y-0.5 transition-all">
+                    Join the Private Beta
+                </button>
+            </form>
+             <p class="mt-4 text-sm text-gray-500">Be the first to try it. No spam, ever.</p>
+        </section>
+    </main>
+
+    <!-- How It Works Section -->
+    <section class="py-20 sm:py-28 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center">
+                <h3 class="text-3xl md:text-4xl font-bold text-gray-900">From a Single Source, a Cascade of Content</h3>
+                <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
+                    Our AI is trained to find the hidden gems in your long-form content and reshape them for every platform.
+                </p>
+            </div>
+            <div class="mt-16 grid md:grid-cols-3 gap-12 text-left">
+                <!-- Step 1 -->
+                <div class="bg-blue-50 p-8 rounded-xl shadow-lg">
+                     <div class="text-4xl">🎬</div>
+                    <h4 class="mt-4 text-xl font-bold text-gray-900">1. Upload Your Pillar Content</h4>
+                    <p class="mt-2 text-gray-600">Connect your YouTube channel, upload a video or audio file, or simply paste a link. Cascade gets to work instantly, creating a full transcript and analyzing your core message.</p>
+                </div>
+                <!-- Step 2 -->
+                <div class="bg-indigo-50 p-8 rounded-xl shadow-lg">
+                    <div class="text-4xl">✨</div>
+                    <h4 class="mt-4 text-xl font-bold text-gray-900">2. Get Your Content Echoes</h4>
+                    <p class="mt-2 text-gray-600">Get a full newsletter summary, 5 key takeaway tweets with relevant hashtags, a compelling LinkedIn post, and 3 viral-worthy scripts for TikToks or Reels.</p>
+                </div>
+                <!-- Step 3 -->
+                <div class="bg-purple-50 p-8 rounded-xl shadow-lg">
+                    <div class="text-4xl">🚀</div>
+                    <h4 class="mt-4 text-xl font-bold text-gray-900">3. Publish Everywhere</h4>
+                    <p class="mt-2 text-gray-600">Copy your new, high-quality content and post it to all your platforms. Multiply your reach and reclaim your time, all from a single piece of content you've already created.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW "Beyond the Transcript" Section -->
+    <section class="py-20 sm:py-28 bg-violet-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center">
+                <h3 class="text-3xl md:text-4xl font-bold text-gray-900">Go Beyond the Transcript</h3>
+                <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
+                    Any tool can transcribe. Cascade's AI is trained to think like a content strategist, finding the core ideas in your work and giving them new life.
+                </p>
+            </div>
+
+            <div class="mt-16 max-w-4xl mx-auto grid md:grid-cols-2 gap-8 items-center">
+                <!-- Visual Element -->
+                <div class="bg-white p-6 rounded-2xl shadow-2xl">
+                    <div class="p-4 border-b border-gray-200">
+                        <div class="flex items-center gap-4">
+                            <div class="text-3xl">🎬</div>
+                            <div>
+                                <h4 class="text-lg font-bold text-gray-900">Your Pillar Content</h4>
+                                <p class="text-sm text-gray-500">One video, endless possibilities.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-4 space-y-3">
+                        <div class="flex items-center gap-3 p-3 bg-blue-50 rounded-lg">
+                            <span class="text-2xl">✉️</span>
+                            <span class="font-semibold text-gray-700">Newsletter Summary</span>
+                        </div>
+                        <div class="flex items-center gap-3 p-3 bg-indigo-50 rounded-lg">
+                             <span class="text-2xl">🐦</span>
+                            <span class="font-semibold text-gray-700">Viral-Worthy Tweets</span>
+                        </div>
+                        <div class="flex items-center gap-3 p-3 bg-purple-50 rounded-lg">
+                             <span class="text-2xl">📱</span>
+                            <span class="font-semibold text-gray-700">Ready-to-Shoot Reel Scripts</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Feature Callouts -->
+                <div class="space-y-6">
+                    <div>
+                        <h4 class="text-xl font-bold text-gray-900">Find the Hidden Hooks</h4>
+                        <p class="mt-2 text-gray-600">Our AI doesn't just summarize; it identifies the most compelling, controversial, or surprising moments in your content that are perfect for grabbing attention on social media.</p>
+                    </div>
+                    <div>
+                        <h4 class="text-xl font-bold text-gray-900">Match Your Voice</h4>
+                        <p class="mt-2 text-gray-600">The generated content isn't robotic. Cascade learns your tone and style, creating written content that sounds authentically like you, maintaining your brand's voice across all platforms.</p>
+                    </div>
+                    <div>
+                        <h4 class="text-xl font-bold text-gray-900">Actionable, Not Just Informative</h4>
+                        <p class="mt-2 text-gray-600">Every output, from tweets to scripts, is designed to be ready-to-publish. We add relevant hashtags, calls-to-action, and formatting so you can spend less time editing and more time creating.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white">
+        <div class="container mx-auto py-8 px-6 text-center">
+            <p>&copy; 2025 Cascade. Multiply your voice.</p>
+        </div>
+    </footer>
+
+    <script>
+        // All previous script content for tabs has been removed.
+    </script>
+
+</body>
+</html>
+
